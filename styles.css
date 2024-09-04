@@ -1,0 +1,52 @@
+/* Basic reset and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full height background and alignment */
+body {
+    background-image: url('https://d33v4339jhl8k0.cloudfront.net/docs/assets/5854c918c697912ffd6c1d7a/images/6053e59bc44f5d025f445b02/file-WmU7Ikpvrx.png');
+    background-size: auto; /* Display the image at its original size */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Make sure the body takes the full height of the viewport */
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center; /* Center the container vertically */
+    justify-content: center; /* Center the container horizontally */
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+/* Container styling */
+.container {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 80%; /* Adjust as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+}
+
+/* Heading styling */
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 1.2em;
+}
+
+/* Link styling */
+a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
